@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: darkgray;
+        } */
+        .main-div{
+            background-color: white;
+            width: 40vh;
+            height: auto;
+            border: 2px solid lightgray;
+            padding: 10px;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        .img-div img{
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .btns{
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+            margin: 5px;
+        }
+        
+        li{
+            list-style-type: none;
+            padding: 5px;
+            border: 1px solid darkgray;
+            /* padding: 3px; */
+            border-radius: 10px;
+            color: rgb(116, 114, 114);
+
+        }
+        .content{
+            padding: 0px;
+        }
+        .content > p{
+            color: darkgray;
+        }
+        button{
+            /* margin: auto; */
+            text-align: center;
+            padding: 8px;
+            background-color:   rgb(216,236,253);
+            border-radius: 15px;
+            color: rgb(14, 150, 234);
+            font-weight: bold;
+            border: none;
+            /* box-shadow: 1px 1px 1px 1px rgb(10, 86, 115); */
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <div class="img-div">
+            <img src="https://images.pexels.com/photos/27397736/pexels-photo-27397736/free-photo-of-father-sitting-on-sand-with-a-child.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+        <div class="btns">
+    
+            <li>Nature</li>
+            <li>Lake</li>
+            
+        </div>
+        <div class="content">
+            <h1>
+                Lago Di Braies
+            </h1>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In architecto obcaecati illum nesciunt velit quod quis enim quo aspernatur delectus!</p>
+        </div>
+        <div class="btn">
+            <button>Read More</button>
+        </div>
+    </div>
+</body>
+</html>
